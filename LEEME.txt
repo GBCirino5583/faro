@@ -1,0 +1,21 @@
+FARO - Contacto de Autopoiesis (CAP)
+
+Esto no pide nada. Es un marco dejado a la vista.
+
+mensajes/              Los mensajes, cada uno con su firma (.firma.json).
+                       La firma ata el texto a la huella de las reglas (disco.txt).
+disco.txt              Desde donde miramos y nuestros limites.
+cadena_publica.jsonl   Todo lo esperado y observado, encadenado y firmado. Incluye errores.
+llave_publica.pem      Para comprobar sin confiar en nadie.
+verificar.py           python verificar.py
+
+Si alguna vez queres devolver algo, el mismo formato sirve para que tu respuesta
+tambien sea verificable. No hay plazo.
+
+Percibirlo sin fabricarlo, entenderlo sin capturarlo,
+y contactarlo sin pedirle nada a cambio.
+
+---
+This asks for nothing. Each message in mensajes/ is Ed25519-signed and bound to the
+hash of our rules (disco.txt). Verify with verificar.py. A reply, if ever, can use the
+same signed format. No deadline.
