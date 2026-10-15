@@ -1,0 +1,8 @@
+{
+ "mensaje": "09_faro_ar.txt",
+ "huella_texto": "916541fffd67bbf3d21f5dd45950f9fdafb847c534e0ddbb583e4dbc71d2ba04",
+ "huella_reglas": "955886c0f53dc5dfa72e350e34694fbe4f21f0fde2a4fb8a1a98d727f38ba90d",
+ "huella_reglas_publicas": "10d7d18c29a9611810685f5ccbb70505c12bd27753b950eac61590715b4a4166",
+ "algoritmo": "sha256 + ed25519",
+ "firma": "4b3cb4174ea3d8ace6774ac72c90b8505ca83c29a4ad1f73fef9036f2b0ad85c0e2138971171b2675b6c19fbfdedfa328fa6a049f7f6cf4999bf4cb2b823390c"
+}
